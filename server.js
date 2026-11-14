@@ -26,7 +26,7 @@ const WebSocket = require('ws');
 const PORT = process.env.PORT || 10000;
 
 // Your EaglerHost server WSS URL:
-const UPSTREAM_WSS = process.env.UPSTREAM_WSS || 'ws://node1.coolcraft.network:25630';
+const UPSTREAM_WSS = process.env.UPSTREAM_WSS || 'us-lax01.altare.global:25118';
 
 // Static site folder:
 const PUBLIC_DIR = path.join(__dirname, 'public');
